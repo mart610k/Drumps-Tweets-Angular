@@ -1,0 +1,12 @@
+.trump-data:nth-child(odd){
+    background-color:gray;
+}
+.trump-data:nth-child(even){
+    background-color: gainsboro;
+}
+.trump-head {
+    background-color: lightslategrey;
+}
+.highligt{
+    background-color: green;
+}
