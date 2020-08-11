@@ -8,7 +8,7 @@
             <div class="col-md-2">likes</div>
         </div>
 
-        <div class="row " [ngClass]="search(tweet.text) ? 'highligt': 'trump-data'" *ngFor="let tweet of twat" >
+        <div class="row " [ngClass]="search(tweet) ? 'highligt': 'trump-data'" *ngFor="let tweet of twat" >
             
             <div class="col-md-4"> {{tweet.date}}</div>
             <div class="col-md-6"> {{tweet.text}}</div>
